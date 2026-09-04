@@ -6,7 +6,7 @@ set -e
 cd "D:/Workbuddy workspace/Hotspot Summary"
 
 DATE_ARG="${1:-$(date +%F)}"
-REPORT="reports/${DATE_ARG}-科研AI前沿日报.html"
+REPORT="reports/${DATE_ARG}-科研AI前沿日报.md"
 
 export GIT_SSH_COMMAND="ssh -i $HOME/.ssh/github_daily_ed25519 -o IdentitiesOnly=yes -o StrictHostKeyChecking=accept-new"
 
