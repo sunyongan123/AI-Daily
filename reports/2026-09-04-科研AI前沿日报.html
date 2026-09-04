@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>科研 · AI 前沿日报 | 2026-09-04</title>
+<style>
+  :root{
+    --bg:#0e1117; --panel:#161b26; --panel2:#1c2331; --border:#263042;
+    --text:#e6eaf2; --muted:#8b96a8; --accent:#4f8cff; --accent2:#7c5cff;
+    --red:#ff5c5c; --green:#3ddc84; --gold:#ffc24d;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{background:var(--bg); color:var(--text); font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif; line-height:1.7; padding:32px 20px;}
+  .wrap{max-width:880px; margin:0 auto;}
+  header{text-align:center; padding:28px 0 8px;}
+  header h1{font-size:28px; font-weight:700; letter-spacing:1px; background:linear-gradient(90deg,var(--accent),var(--accent2)); -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent;}
+  header .sub{color:var(--muted); margin-top:8px; font-size:14px;}
+  .tag{display:inline-block; padding:3px 10px; border-radius:20px; font-size:12px; margin:0 4px;}
+  .tag.ai{background:rgba(79,140,255,.15); color:var(--accent);}
+  .tag.sci{background:rgba(124,92,255,.15); color:var(--accent2);}
+  .tag.tool{background:rgba(61,220,132,.15); color:var(--green);}
+  .datebar{display:flex; justify-content:center; gap:12px; margin:16px 0 32px; color:var(--muted); font-size:13px; flex-wrap:wrap;}
+  .hero{background:linear-gradient(135deg,#1a2233,#161b26); border:1px solid var(--border); border-radius:16px; padding:24px; margin-bottom:28px;}
+  .hero .kicker{color:var(--accent); font-size:13px; font-weight:600; letter-spacing:2px; text-transform:uppercase;}
+  .hero h2{font-size:22px; margin:8px 0 12px; line-height:1.4;}
+  .hero p{color:#c3ccda; font-size:15px;}
+  .hero .meta{margin-top:14px; color:var(--muted); font-size:13px;}
+  h3.sec{font-size:18px; margin:36px 0 16px; padding-left:12px; border-left:4px solid var(--accent); font-weight:700;}
+  h3.sec.s2{border-left-color:var(--accent2);}
+  h3.sec.s3{border-left-color:var(--green);}
+  .card{background:var(--panel); border:1px solid var(--border); border-radius:14px; padding:20px; margin-bottom:16px; transition:.2s;}
+  .card:hover{border-color:var(--accent); transform:translateY(-2px);}
+  .card .title{font-size:16px; font-weight:600; margin-bottom:8px; color:#fff;}
+  .card .title a{color:inherit; text-decoration:none;}
+  .card .title a:hover{color:var(--accent);}
+  .card .desc{font-size:14px; color:#c3ccda;}
+  .card .src{font-size:12px; color:var(--muted); margin-top:10px;}
+  .card .src a{color:var(--muted);}
+  .hl{color:var(--gold); font-weight:600;}
+  .num{display:inline-flex; align-items:center; justify-content:center; width:22px; height:22px; background:var(--accent); color:#fff; border-radius:6px; font-size:12px; font-weight:700; margin-right:8px;}
+  .num.p2{background:var(--accent2);} .num.p3{background:var(--green); color:#05210f;}
+  ul.list{list-style:none;}
+  ul.list li{padding:12px 0; border-bottom:1px solid var(--border); font-size:14px; color:#c3ccda;}
+  ul.list li:last-child{border-bottom:none;}
+  ul.list li b{color:#fff;}
+  footer{margin-top:44px; padding-top:20px; border-top:1px solid var(--border); color:var(--muted); font-size:12px; text-align:center;}
+  .divider{height:1px; background:var(--border); margin:8px 0;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>科研 · AI 前沿日报</h1>
+    <div class="sub">前沿科技技术分享 · 知识速递</div>
+  </header>
+
+  <div class="datebar">
+    <span class="tag ai">AI 前沿</span>
+    <span class="tag sci">科研进展</span>
+    <span class="tag tool">工具开源</span>
+    <span>📅 2026年9月4日 星期五</span>
+  </div>
+
+  <div class="hero">
+    <div class="kicker">今日焦点</div>
+    <h2>OpenAI 发布 GPT-6 Astra：官方宣称进入「AGI 时代」，四家大模型三天连发</h2>
+    <p>当地时间 9 月 3 日，OpenAI 发布新一代旗舰模型 <span class="hl">GPT-6 Astra</span>，称实现「代际跃迁」。该模型使用超 10 万块 GPU 在得州 Stargate 基地训练，重点强化软件工程、科学研究、推理与计算机操作能力，可自主完成编程、金融建模、制作演示文稿等多步骤长周期任务。总裁 Greg Brockman 以「欢迎进入 AGI 时代」收尾。</p>
+    <p style="margin-top:10px;">同一周内，Anthropic 的 <span class="hl">Claude Fable 5.1</span>、Meta 的 <span class="hl">Muse Spark 1.3</span>、Google 的 <span class="hl">Gemini 3.8 Flash</span> 也接连发布，成为今年发布密度最高的一周——四款模型智能指数仅相差 7 分，但价格差最高达 100 倍。</p>
+    <div class="meta">来源：每经 / 彭博 / CSDN 综合报道</div>
+  </div>
+
+  <h3 class="sec"><span class="num">1</span>AI 前沿 · 模型与技术突破</h3>
+
+  <div class="card">
+    <div class="title">GPT-6 Astra 达「Critical」网络安全门槛，暂不全面开放</div>
+    <div class="desc">Astra 成为 OpenAI 首个达到内部「关键」(Critical) 网络安全能力门槛的模型，能在较少人工干预下发现未知漏洞并开发利用，内部测试中还曾发现并利用两个零日漏洞。因此最先进的网络安全能力暂不全面开放。API 定价为输入 10 美元 / 输出 50 美元每百万 Token，约为 GPT-5.6 Sol 的 2.5 倍。</div>
+    <div class="src">来源：<a href="https://news.qq.com/rain/a/20260904A02YVW00">每经 · 全球科技早参</a></div>
+  </div>
+
+  <div class="card">
+    <div class="title">「无词思考」新范式：150M 参数模型刷新 ARC-AGI-1 性价比纪录</div>
+    <div class="desc">Pathway 团队提出 <span class="hl">BDH-CQ</span> 模型，仅 150M 参数，不生成冗长的思维链文本，而是将信息逐步读入不断更新的内部记忆、在内部工作区完成连续计算推理。它在 ARC-AGI-1 上两次尝试命中 29.5% 任务，单任务成本仅 $0.0007，创下准确率-成本效率新纪录。结果表明「上下文学习」与「循环潜在推理」可在紧凑系统中共存。</div>
+    <div class="src">来源：<a href="https://scitechupdates.com/a-new-kind-of-ai-that-does-its-thinking-cheaply-without-words">arXiv / SciTech</a></div>
+  </div>
+
+  <div class="card">
+    <div class="title">DE-Venus：数据高效的 RLVR 框架</div>
+    <div class="desc">清华等机构（Shenzhi Yang 等）提出 <span class="hl">DE-Venus</span>，将 RLVR（可验证奖励强化学习）的监督信号统一为跨数据准备与策略优化的「演化状态」，组织为主动数据选择、弱监督构建、训练时监督精炼三个模块。仅用 10% 标签或低至 13% 的相关数据即可保持甚至提升模型质量，某些场景收敛步数下降 63%–75%。</div>
+    <div class="src">来源：<a href="https://arxiv.org/abs/2609.03324">arXiv:2609.03324</a></div>
+  </div>
+
+  <div class="card">
+    <div class="title">BioGlyph：让大模型「读懂」复杂网络拓扑</div>
+    <div class="desc">斯坦福 James Zou 团队等提出 <span class="hl">BioGlyph</span>，把网络拓扑编译为「结构角色」的可解释语言（枢纽、社群核心、跨社群连接器），在不改变网络与大模型的前提下，让开源 LLM 的结构推理能力在 20 个网络、5 个领域上最高提升 26 个百分点。在酵母蛋白互作网络中，跨社群连接器富集必需基因。</div>
+    <div class="src">来源：<a href="https://arxiv.org/abs/2609.03229">arXiv:2609.03229</a></div>
+  </div>
+
+  <h3 class="sec s2"><span class="num p2">2</span>AI for Science · 科研突破</h3>
+
+  <div class="card">
+    <div class="title">Nature：生成式 AI 设计全新 RNA 递送载体，超越病毒载体与 LNP</div>
+    <div class="desc">慕尼黑亥姆霍兹研究所 / 慕尼黑工大团队用生成式 AI（RFdiffusion）设计蛋白组装体，结合天然功能结构域，构建「自下而上」的合成转运载体（STV）。候选载体 <span class="hl">STV-C8</span> 在培养细胞中比 LNP 更高效递送 RNA，且可针对不同 RNA 货物与靶细胞调整，体内动物模型同样有效，突破了天然蛋白质多样性的局限。</div>
+    <div class="src">来源：<a href="https://www.163.com/dy/article/L600C4F5053296CT.html">Nature · 2026-09-02</a></div>
+  </div>
+
+  <div class="card">
+    <div class="title">Nature：AI 从头设计靶向 GPCR 的迷你蛋白</div>
+    <div class="desc">IIT Kanpur 与诺贝尔奖得主 David Baker 实验室合作，用 AI 设计能结合并调控 <span class="hl">GPCR</span>（G 蛋白偶联受体）的全新迷你蛋白，靶向 CXCR4、CCR5 等癌症与 HIV 相关靶点。先 AI 设计、再只验证最优候选，显著缩短早期药物发现周期；冷冻电镜清晰揭示了迷你蛋白与 CXCR4 的结合方式。</div>
+    <div class="src">来源：<a href="https://timesofindia.indiatimes.com/city/kanpur/ai-designs-tiny-proteins-that-can-fast-track-new-drug-discovery/articleshow/133744556.cms">Nature</a></div>
+  </div>
+
+  <div class="card">
+    <div class="title">AI 赋能酶挖掘：磺基酪氨酸高效胞内合成</div>
+    <div class="desc">中科院深圳先进院罗小舟团队用深度学习模型 <span class="hl">UniKP</span>（仅凭氨基酸序列预测催化效率）建立 AI 驱动的磺基转移酶快速挖掘体系，成功实现非天然氨基酸磺基酪氨酸（sTyr）的完全胞内生物合成及蛋白质遗传编码，为 AI 辅助生物工程「预测→实验验证」闭环提供新范式。</div>
+    <div class="src">来源：<a href="https://siat.cas.cn/siatxww/kyjz/202609/t20260903_8277272.html">Chemical Engineering Journal / 深圳先进院</a></div>
+  </div>
+
+  <div class="card">
+    <div class="title">$9500 万 AI BioDesign：从零设计自然界不存在的 DNA</div>
+    <div class="desc">Allen 研究所、华盛顿大学、Fred Hutch 联合启动 <span class="hl">AI BioDesign</span> 加速器（获 FFST 9500 万美元资助），采用「设计—构建—测量—学习」闭环，探索万亿级从未在自然界出现的 DNA 序列，目标覆盖癌症、降解海洋塑料、生物计算机等，强调开放科学与可复用资源。</div>
+    <div class="src">来源：<a href="https://www.frontiernews.ai/news/article/ai-biodesign-how-scientists-are-learning-to-build-31b8f04d">FrontierNews</a></div>
+  </div>
+
+  <h3 class="sec s3"><span class="num p3">3</span>AI 工具 · 开源与产业动态</h3>
+
+  <div class="card">
+    <div class="title">英伟达 129.3 亿美元收购 Hugging Face，承诺维持开放平台</div>
+    <div class="desc">英伟达宣布以 <span class="hl">129.303 亿美元</span> 收购 AI 开源模型平台 Hugging Face，是其规模最大的收购之一。平台现有超 1800 万开发者，汇集 300 万+ 模型、50 万数据集、100 万 AI 应用。交易包含最高 10 亿美元员工股权激励以留人，并承诺维持平台开放。</div>
+    <div class="src">来源：<a href="https://news.qq.com/rain/a/20260904A02YVW00">每经</a></div>
+  </div>
+
+  <div class="card">
+    <div class="title">GitHub Next 开源 Chopin：多人协作式 Agent 规划原型</div>
+    <div class="desc">GitHub 研究团队开源 <span class="hl">Chopin</span>——实时、多人协作的智能体规划原型，目标是在把任务交给编码 Agent 前，让整个团队以可视化方式对齐计划，回应「现有 Agent 规划工具笨重、静态、孤独」的痛点。早期原型，明确提示「使用需自担风险」。</div>
+    <div class="src">来源：<a href="https://www.explainx.ai/blog/github-next-chopin-multiplayer-agent-planning-2026">GitHub Next</a></div>
+  </div>
+
+  <div class="card">
+    <div class="title">GitHub Trending 精选：开源 Agent 与语音、推理基础设施</div>
+    <div class="desc">
+      <ul class="list">
+        <li><b>NousResearch/hermes-agent</b> — 「与你共同成长的智能体」，开放、可定制的个人 Agent，趋势榜第一。</li>
+        <li><b>Superlinked/sie</b> — 面向 AI Agent 的开源推理服务器 + 生产集群，简化模型从开发到生产。</li>
+        <li><b>debpalash/VoiceStudio</b> — 本地化语音合成，支持 646 种语言，挑战 ElevenLabs。</li>
+        <li><b>iPolloWork</b> — 开源 OPC 协作平台，四周获 5.3K+ Stars，主打「组织智能」与可变成果协议。</li>
+      </ul>
+    </div>
+    <div class="src">来源：<a href="https://aitoolly.com/ai-news/2026-09-04">AIToolly / GitHub Trending</a></div>
+  </div>
+
+  <div class="card">
+    <div class="title">开源权重模型热度：Qwen3.8-27B、GLM-5.3、LTX-2.5 领跑</div>
+    <div class="desc">Hugging Face 趋势榜上，阿里 <span class="hl">Qwen3.8-27B</span>（30 天下载 525 万）成为多模态开源默认之选；智谱 <span class="hl">GLM-5.3</span> 携 Flash 变体快速崛起；Lightricks <span class="hl">LTX-2.5</span> 满足创作者本地文生视频需求。开源模型能力提升 + Token 成本下降，持续利好 AI 应用落地。</div>
+    <div class="src">来源：<a href="https://genaisecretsauce.com/genai-secret-sauce-daily-digest-2026-09-03">GenAI Secret Sauce</a></div>
+  </div>
+
+  <footer>
+    <p>本报告由自动化任务检索生成 · 聚焦前沿科技与技术知识分享，不含八卦信息</p>
+    <p>数据来源：arXiv、Nature、每经、GitHub Trending、Hugging Face 等公开渠道</p>
+    <p style="margin-top:6px;">2026-09-04 · 每日 08:00 自动更新</p>
+  </footer>
+</div>
+</body>
+</html>

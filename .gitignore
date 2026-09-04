@@ -1,6 +1,3 @@
-# 报告输出
-reports/*.html
-
 # 工作区记忆与临时文件
 .workbuddy/
 
